@@ -1,7 +1,8 @@
 from selenium import webdriver as wd
 
 def get_driver() -> wd.Chrome:
-    options = wd.ChromeOptions() 
+    options = wd.ChromeOptions()
+    options.add_argument("--headless")
     options.add_argument("disable-infobars")
     options.add_argument("start-maximized")
     options.add_argument("disable-dev-shm-usage")
