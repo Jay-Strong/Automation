@@ -27,6 +27,6 @@ def show_on_screen():
 
 show_on_screen()
 
-# print(get_text())
+print(get_text())
 
 # py main.py 
