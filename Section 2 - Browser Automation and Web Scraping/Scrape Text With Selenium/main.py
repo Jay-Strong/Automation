@@ -1,7 +1,7 @@
 from driver_config import get_driver
 from turtle import Turtle, Screen
 
-FONT = ("Algerian", 14, "normal")
+FONT = ("Ink Free", 24, "normal")
 
 def get_text() -> str:
     driver = get_driver()
@@ -16,7 +16,7 @@ def get_text() -> str:
 def show_on_screen():
     text = get_text()
     screen = Screen()
-    screen.setup(width=600, height=600)
+    screen.setup(width=1000, height=800)
     screen.bgcolor("black")
 
     text_object = Turtle()
