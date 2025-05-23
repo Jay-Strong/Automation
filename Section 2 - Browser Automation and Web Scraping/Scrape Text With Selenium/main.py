@@ -10,7 +10,7 @@ def get_text() -> str:
     parts = text.split(",", 1)
     if len(parts) == 2:
          text = f"{parts[0]}, \n {parts[1]}"
-    driver.quit()
+    # driver.quit()
     return text
 
 def show_on_screen():
@@ -27,6 +27,6 @@ def show_on_screen():
 
 show_on_screen()
 
-print(get_text())
+# print(get_text())
 
 # py main.py 
